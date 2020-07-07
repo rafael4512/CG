@@ -1,0 +1,46 @@
+TP/build
+TP/CMakeLists.txt
+TP/generator
+TP/res.txt
+BuleCha/
+toolkits/
+Triangulos/
+TP/Engine/build
+TP/Engine/zlib-1.2.11
+TP/Engine/CMakeList.txt
+TP/Engine/zconf.h
+#TP/Engine/cmake-build-debug
+#TP/Engine/cmake-build-release
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app

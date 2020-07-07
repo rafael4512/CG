@@ -1,0 +1,8 @@
+<scene>
+  <!--Sun-->
+  <group>
+    <models>
+      <model file="patch.3d" R="0.98" G="0.98" B="0" />
+    </models>
+  </group>
+</scene>

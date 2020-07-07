@@ -1,0 +1,108 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../tinyxml/tinystr.h
+assert.h
+-
+string.h
+-
+
+../tinyxml/tinyxml.h
+ctype.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+string
+-
+iostream
+-
+sstream
+-
+tinystr.h
+../tinyxml/tinystr.h
+
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/engine.cpp
+GLUT/glut.h
+-
+GL/glut.h
+-
+math.h
+-
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+tinyxml.h
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml.h
+zconf.h
+-
+
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml/tinystr.cpp
+tinystr.h
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml/tinystr.h
+
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml/tinystr.h
+assert.h
+-
+string.h
+-
+
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml/tinyxml.cpp
+ctype.h
+-
+sstream
+-
+iostream
+-
+tinyxml.h
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml/tinyxml.h
+
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml/tinyxml.h
+ctype.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+string
+-
+iostream
+-
+sstream
+-
+tinystr.h
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml/tinystr.h
+
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml/tinyxmlerror.cpp
+tinyxml.h
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml/tinyxml.h
+
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml/tinyxmlparser.cpp
+ctype.h
+-
+stddef.h
+-
+tinyxml.h
+/home/xekster/cg/Trabalho-CG-Final/Trabalho CG/Engine/tinyxml/tinyxml.h
+windows.h
+-
+

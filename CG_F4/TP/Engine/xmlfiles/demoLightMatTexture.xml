@@ -1,0 +1,63 @@
+<scene>
+    <group>
+        <scale X=220 Y=220 Z=220 />
+        <lights>
+            <light type ="POINT" />
+            <!--<light type="SPOT" posX=1 posY=1 posZ=0 cutoff=45 spotX=0 spotY=0 spotz=0 attX=1 attY=1 attZ=1 exp=0/>-->
+            <!--<light type="DIRECTIONAL" posX=0 posY=0 posZ=1 />-->
+        </lights>
+        <group>
+            <translate X=3 Y=0 Z=0 />
+            <rotate axisY=-1 axisZ=1 time=20 />
+            <scale X=0.4 Y=0.4 Z=0.4 />
+            <models>
+                <model file="box.3d" texture="grass_block.png" diffR=0.9 diffB=0.9 diffG=0.9 ambiR=0.15 ambiB=0.15 ambiG=0.15  />
+            </models>
+        </group>
+         <group>
+             <translate X=0 Y=0 Z=-3 />
+             <rotate axisY=1 time=20 />
+                 <models>
+                     <model file="sphere.3d" texture="2k_earth_daymap.jpg" emisR=0.05 emisB=0.05 emisG=0.05 specR=1 specB=1 specG=1 diffR=0.6 diffB=0.6 diffG=0.6 ambiR=0.015 ambiB=0.015 ambiG=0.015 />
+                 </models>
+                <group>
+                    <scale X=1.01 Y=1.01 Z=1.01 />
+                    <rotate axisY=-1 axisZ=1 time=20 />
+                    <models>
+                     <model file="sphere.3d" texture="clouds.png" emisR=0.05 emisB=0.05 emisG=0.05 specR=1 specB=1 specG=1 diffR=0.6 diffB=0.6 diffG=0.6 ambiR=0.015 ambiB=0.015 ambiG=0.015 />
+                 </models>
+                </group>
+             </group>
+         <group>
+             <translate X=0 Y=0 Z=3 />
+             <rotate axisY=1 axisZ=1 time=20 />
+             <models>
+                 <model file="cone.3d" texture="cone.png" diffR=0.9 diffB=0.9 diffG=0.9 ambiR=0.15 ambiB=0.15 ambiG=0.15  />
+             </models>
+        </group>
+        <group>
+             <translate X=-3 Y=0 Z=0 />
+             <rotate axisY=-0.5 axisZ=1 time=20 />
+             <scale X=0.2 Y=0.2 Z=0.2 />
+             <models>
+                 <model file="plane.3d" texture="8k_venus_surface.jpg" diffR=0.9 diffB=0.9 diffG=0.9 ambiR=0.15 ambiB=0.15 ambiG=0.15 />
+             </models>
+        </group>
+        <group>
+             <translate  Y=-3 />
+             <rotate axisY=-0.5 axisZ=1 time=20 />
+             <scale X=0.5 Y=0.5 Z=0.5 />
+             <models>
+                 <model file="torus.3d" texture="8k_saturn_ring_alpha_full.png" diffR=0.9 diffB=0.9 diffG=0.9 ambiR=0.15 ambiB=0.15 ambiG=0.15 />
+             </models>
+        </group>
+        <group>
+             <translate Y=3 />
+             <rotate axisY=-0.5 axisZ=1 time=20 />
+             <scale X=0.3 Y=0.3 Z=0.3 />
+             <models>
+                 <model file="patch.3d" texture="flower.jpg" diffR=0.9 diffB=0.9 diffG=0.9 ambiR=0.15 ambiB=0.15 ambiG=0.15 />
+             </models>
+        </group>
+    </group>
+</scene>

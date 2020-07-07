@@ -1,0 +1,9 @@
+<scene>
+    <!--Sun-->
+    <group R=1 G=1 B=0 A=1>
+        <scale X=1 Y=1 Z=1 />
+        <models>
+            <model file="sphere.3d" />
+        </models>
+    </group>
+</scene>
