@@ -7,4 +7,4 @@
   <li>Iluminação das várias primitivas, translações e rotações do sistema solar.</li>
   <li>Texturas do sistema solar.</li>
  </ol>
- <p>Para mais informações, consulte os relatórios de cada uma das fases.É de salientar que de fase em fase há uma evolução, sendo a 4 fase o resultado final. </p>
+ <p>Para mais informações, consulte os <b> relatórios</b> de cada uma das fases.É de salientar que de fase em fase há uma evolução, sendo a 4 fase o resultado final. </p>
